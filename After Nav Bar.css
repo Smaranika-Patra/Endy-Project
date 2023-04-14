@@ -1,0 +1,64 @@
+﻿/*for 10%everything*/
+.pic {
+    position: absolute;
+    top: 62%;
+    left: 75%;
+    display: inline-block;
+    color: #243746;
+    width: 220px;
+    height: 30px
+}
+
+.fresh {
+    position: absolute;
+    top: 56%;
+    left: 78%;
+    font-size: 11px;
+    color: #243746;
+    display: inline-block;
+    font-family: Calibre, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 2px solid #243746;
+    border-radius: 12.5px;
+    width: fit-content;
+    padding: 2px 15px;
+    cursor: pointer;
+}
+
+
+.onimg {
+    display: block;
+    font-size: 47px;
+    font-weight: 300;
+    color: rgb(36, 55, 70);
+    font-family: serif;
+    line-height: 1.1;
+    overflow-wrap: break-word;
+    position: absolute;
+    top: 25%;
+    left: 13%;
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    background-color: rgb(196, 0, 88);
+    border: none;
+    box-shadow: rgba(36, 55, 70, 0.5) 0px 2px 4px;
+    position: absolute;
+    top: 40%;
+    left: 21%;
+    padding: 11px 20px 11px 20px;
+    letter-spacing: 1px;
+    font-size: small;
+    font-weight: 600;
+    border-radius: 5px;
+    font-family: Calibre, Helvetica, sans-serif;
+}
+
+    .btn:hover {
+        background-color: white;
+        color: rgb(196, 0, 88);
+        cursor: pointer;
+    }

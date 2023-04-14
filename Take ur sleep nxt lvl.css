@@ -1,0 +1,30 @@
+﻿.disk {
+    background-image: url('images/takesleep.jpg');
+    height: 650px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1style {
+    color: rgb(196, 0, 88);
+    font-family: Wulkan, serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 50px
+}
+
+.hoverbutton1 {
+    background-color: rgb(196, 0, 88);
+    color: white;
+    font-weight: bold;
+}
+
+    .hoverbutton1:hover {
+        background-color: white;
+        color: rgb(196, 0, 88);
+        cursor: pointer;
+    }

@@ -1,0 +1,82 @@
+﻿/*for 5 pics*/
+.container {
+    position: relative;
+    width: 15%;
+    height: 15%;
+    float: left;
+    align-items: center;
+    margin: 20px 20px 20px 20px;
+}
+
+#frst {
+    margin-left: 55px
+}
+
+/* Make the image to responsive */
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+    position: absolute;
+    bottom: auto;
+    background: rgba(255,255,255,1); /* Black see-through */
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: black;
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    z-index: 1
+}
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+    opacity: 1;
+}
+
+
+/*for complete*/
+.dytxea {
+    text-align: center;
+}
+
+.izrdm > h2 {
+    position: relative;
+    display: inline-block;
+}
+/*for text*/
+.hlgtjo {
+    font-size: 39px;
+    color: rgb(36,55,70);
+    font-family: serif;
+    font-weight: 700;
+    line-height: 1.1;
+    overflow-wrap: break-word;
+    margin: 20px
+}
+
+
+.izrdm > h2::before {
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 2px;
+    background: rgb(36,55,70);
+    right: 100%;
+    content: "";
+}
+
+.izrdm > h2::after {
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 2px;
+    background: rgb(36,55,70);
+    content: "";
+}
+

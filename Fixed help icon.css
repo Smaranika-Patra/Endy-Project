@@ -1,0 +1,29 @@
+﻿/*for help*/
+.fix {
+    position: fixed;
+    background-color: rgb(196, 0, 88);
+    padding: 13px 22px;
+    border-radius: 999rem;
+    right: 0px;
+    border: none;
+    font-weight: 800;
+    margin: 10px 20px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system;
+    display: flex;
+    z-index: 1;
+    bottom: 0px;
+    cursor: pointer;
+}
+
+.show {
+    fill: rgb(255, 255, 255);
+    padding-right: 8px;
+    display: inline-flex;
+}
+
+.fix svg {
+    height: 1.42857rem;
+    width: 1.42857rem;
+}

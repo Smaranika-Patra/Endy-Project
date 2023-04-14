@@ -1,0 +1,126 @@
+﻿.mySlides {
+    display: none;
+}
+
+#box {
+    background-color: rgb(36,55,70);
+    color: white;
+}
+
+
+/*nav bar*/
+
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    box-shadow: rgba(36, 55, 70, 0.12) 0px 2px 5px;
+    width: 100%
+}
+
+    .navbar a {
+        font-size: 16px;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+    }
+
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+
+    .subnav .subnavbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: black;
+        padding: 14px 16px;
+        background-color: white;
+        font-family: inherit;
+        margin: 0;
+        font-size:14px;
+        letter-spacing:1px
+    }
+
+    .navbar a:hover, .subnav:hover .subnavbtn {
+        background-color: ghostwhite;
+        font-weight: bold;
+        z-index: 1;
+    }
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 35%;
+    box-shadow: rgba(36, 55, 70, 0.12) 0px 2px 5px;
+}
+
+    .subnav-content a {
+        color: black;
+        text-decoration: none;
+        font-size:15px
+    }
+
+        .subnav-content a:hover {
+            background-color: #eee;
+            color: black;
+            
+        }
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+.dropone {
+    position: absolute;
+    width: 20%;
+    float: right;
+    margin-left: 800px;
+    top: 10%
+}
+
+.droptwo {
+    position: absolute;
+    top: 10%;
+    width: 20%;
+    margin-left: 500px;
+}
+
+.discover:hover {
+    color: rgb(255 0 220);
+}
+
+#align {
+    float: right;
+    margin-right: 20px;
+    padding-top: 15px
+}
+
+#revw {
+    margin-top: 15px;
+    font-size: 14px;
+    letter-spacing: 1px
+}
+
+.cart {
+    border: 0;
+    cursor: pointer;
+    background: none;
+}
+
+.new {
+    background-color: rgb(36,55,70);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 8px;
+    font-size: 12px
+}
+
+    .new:hover {
+        cursor: pointer;
+    }
+    

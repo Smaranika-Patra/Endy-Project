@@ -1,0 +1,49 @@
+﻿/*after learn more*/
+.maincov {
+    height: 100%;
+}
+
+.bcgcov {
+    background-image: url(images/sky.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+
+.fLuAxm {
+    padding: 3rem 0px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.esUlGA {
+    max-width: 570px;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    margin: 0px 1rem;
+}
+
+.gqNMhy {
+    margin-top: 0.5rem;
+    max-width: 200px;
+    padding-bottom: 0px;
+}
+
+    .gqNMhy img {
+        border: 0;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+.ECkyy {
+    font-size: 34px;
+    color: rgb(36, 55, 70);
+    font-family: Wulkan, serif;
+    font-weight: 700;
+    line-height: 1.1;
+}
